@@ -45,7 +45,7 @@
     "proxyquire": "*",
     "coveralls": "*",
     "istanbul": "*",
-    "sails": "*",
+    "sails": "^1.0.0-37",
     "jshint": "*"
   },
   "preferGlobal": false,
