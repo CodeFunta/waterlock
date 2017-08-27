@@ -1,6 +1,6 @@
 {
   "name": "waterlock",
-  "version": "v0.1.2-rc2",
+  "version": "0.1.2-rc3",
   "author": "David Rivera <david.r.rivera193@gmail.com>",
   "description": "User authentication and Json Web Tokens for Sails",
   "homepage": "http://waterlock.ninja/",
@@ -18,7 +18,8 @@
     "url": "https://github.com/waterlock/waterlock/issues"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "test-win": "make --makefile Makefile.win test"
   },
   "bin": {
     "waterlock": "./bin/waterlock.js"
