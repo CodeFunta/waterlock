@@ -9,8 +9,8 @@ TESTAPP = _testapp
 ifeq (true,$(COVERAGE))
 test: jshint coverage
 else
-#test: clean jshint provision base
-test: jshint base  
+test: clean jshint provision base
+#test: jshint base  
 endif
 
 base:
